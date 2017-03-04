@@ -1,0 +1,83 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	background: #cee;
+}
+.myInput{
+	width:1500px;
+	height:50px;
+	margin-left: 50px;
+	margin-bottom:40px;
+	color:#21324f;
+	font-size: 40px;
+	line-height: 50px;
+	outline:none;
+}
+input:
+input[type="submit"]{
+	margin-top: 40px;
+}
+.green{
+	background: #5fd36d;
+}
+.red{
+	background: #c4383f;
+}
+.error{
+	display:block;
+	margin-left:800px;
+	background: white;
+	width: 753px;
+	font-size: 20px;
+	color: #f45342;
+	height: 20px;
+	line-height: 20px;
+	margin-bottom: 30px;
+	text-transform:uppercase;
+}
+
+
+.ui-widget-header {
+    border: 1px solid #ddd;
+    background: #5fd36d;
+    color: #333;
+    font-weight: bold;
+}
+
+.ui-widget-content {
+    border: 1px solid #ddd;
+    background: #f75757;
+    color: #333;
+}
+.ui-datepicker-next:hover,.ui-datepicker-prev:hover{
+	background:#fff;
+}
+#progressbar{
+	margin-left: 50px;
+	margin-bottom: 10px;
+	width: 1000px;
+	position: relative;
+}
+#progressLabel{
+	position: absolute;
+	left:45%;
+	font-size: 30px;
+	line-height: 30px;
+	color: #fff;
+}
+.ui-widget-header {
+    border: 1px solid #ddd;
+    background: #8500ff;
+    color: #333;
+    font-weight: bold;
+}
+.ui-widget-content {
+    border: 1px solid #ddd;
+    background:#333;
+    color: #333;
+}
+.dialog{
+	color:#fff;
+}
